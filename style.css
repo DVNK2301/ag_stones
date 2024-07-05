@@ -1,0 +1,151 @@
+/* .container{
+    background-color: white;
+    height: 100vh;
+}
+.bg-container{
+    background-color: white;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.logo{
+    height: 150px;
+    width:100px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-60%);
+    margin-bottom: 100px;
+    
+}
+.logo img{
+    width: 100%;
+
+}
+.logoname{
+    color: rgb(149, 96, 96);
+    font-size: 45px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding-top: 18px;
+    padding-left: 0px;
+}
+
+.carousel-item img {
+    height: 5l00px;
+    object-fit: cover;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-family: Georgia;
+    font-weight: 500;
+    color: rgb(149, 96, 96);
+
+}
+.card-container{
+    background-color: white;
+    height: 100px;
+    width: 100%;
+}
+ */
+.navItem{
+    font-size: 20px;
+    font-family: 'roboto';
+    color: rgb(149, 96, 96);
+    font-weight: 500;
+    
+}
+.navItem:hover{
+    color: rgb(149, 96, 96)!important;
+    text-decoration: none;
+}
+
+.headline{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'roboto';
+    font-weight: 600;
+    color: rgb(149, 96, 96);
+    text-decoration: none;
+    padding-left: 60px;
+
+}
+.headline:hover{
+    color: rgb(149, 96, 96)!important;
+    text-decoration: none;
+}
+.logo{
+    height: 60px;
+    width:60px;
+    position: absolute;
+    
+}
+.carousel-item img{
+    height: 700px;
+    max-width: 100%;
+    object-fit: cover;
+    
+}
+#carouselExampleIndicators{
+    width: 100%;
+    
+}
+.navbar-underline {
+    border-top: 2px solid #333;
+    margin-bottom: 10px;
+    height: 0.5px;
+    border-width: 0;
+    color:gray;
+    background-color:rgb(149, 96, 96);
+}
+
+.heading{
+    color: rgb(149, 96, 96);
+    font-size: 40px;
+    font-family: 'roboto';
+    margin-left: 100px;
+    padding-top: 5px;
+    text-align: center;
+
+}
+
+.description{
+    color:gray;
+    font-size: 22px;
+    font-family: 'roboto'; 
+    margin-left: 20px;
+    padding-left: 25px;
+}
+@media (max-width: 767px){
+    .heading{
+    
+        font-size: 25px;
+    
+    
+    }
+    .description{
+        
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    .carousel-item img{
+        height: 400px;
+        width: 800%;
+        object-fit: cover;
+    
+    }
+}
