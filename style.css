@@ -108,6 +108,12 @@
     display: flex;
     justify-content: center;
 }
+.carousel-indicators li{
+    height: 15px !important;
+    width: 15px !important;
+    border-radius: 50%;
+    background-color: aliceblue;
+}
 @media (max-width: 767px){
     .container{
        display: flex;
