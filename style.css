@@ -154,7 +154,14 @@ footer{
 .logoo{
    margin-right: 6px;
 }
-
+.footerpara{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: sans-serif;
+    padding-top: 25px;   
+    padding-left: 35px;
+}
 @media (max-width: 767px){
     .container{
        display: flex;
