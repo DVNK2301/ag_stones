@@ -191,87 +191,108 @@
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
-.new-card{
-    height: 450px;
+.ccontainer{
+    height: 455px;
     width: 1255px;
-    margin-top: 15%;
+    margin-top: 10%;
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
 }
 .newproducts{
     height: 380px;
     width: 280px;
-    margin-top: 3%;
-    margin-left: 10%;
+    margin-top: 13%;
+    margin-left: 55%;
 }
 .newproducts:hover{
     opacity: 0.5;
 }
 .content{
-    font-size: 23px;
     font-family: 'sans-serif';
+    font-size: 25px;
 }
-.new-card .content{
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1;
-    padding: 20px;
-    height: 70px;
-    width: 280px;
-    margin-bottom: 40%;
-    margin-left: 29%;
-  }
 .info{
     color: #f1f1f1;
-    padding-left: 18%;
-    font-size: 25px;
-    font-family: 'sans-serif';
+    text-align: center;
 }
 .info:hover{
     text-decoration: none;
-    color: rgb(149, 96, 96);
+    color: rgb(149, 96, 96)!important;
+}
+.ccontainer .info{
+    position: absolute;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 280px;
+    height: 75px;
+    padding: 20px;
+    margin-left: 155px;
+    padding-bottom: 20px;
 }
 .allkitchen{
     height: 380px;
     width: 280px;
-    margin-top: 24%;
-    margin-left: 16%;
+    margin-top: 12%;
+    margin-left: 78%;
 }
 .allkitchen:hover{
     opacity: 0.5;
 }
-.newcard .contentt{
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+.contentt{
+    font-size: 25px;
+    font-family: 'sans-serif';
+}
+.infor{
     color: #f1f1f1;
-    padding: 20px;
-    height: 70px;
+    text-align: center;
+}
+.infor:hover{
+    text-decoration: none;
+    color: rgb(149, 96, 96)!important;
+}
+.ccontainer .infor{
+    position: absolute;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
     width: 280px;
-    margin-left: 15%;
-    margin-bottom: 35%;
+    height: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 219px;
 }
 .gallery{
     height: 380px;
     width: 280px;
-    margin-top: 24%;
+    margin-top: 12%;
+    margin-left: 100%;
 }
 .gallery:hover{
     opacity: 0.5;
 }
-.newcardd .contenttt{
-    position: absolute;
-    bottom: 0;
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+.contenttt{
+    font-size: 25px;
+    font-family: 'sans-serif';
+}
+.infors{
     color: #f1f1f1;
-    padding: 20px;
-    height: 70px;
-    width: 278px;
-    margin-bottom: 40%;
+    text-align: center;
+}
+.infors:hover{
+    text-decoration: none;
+    color: rgb(149, 96, 96)!important;
+}
+.ccontainer .infors{
+    position: absolute;
+    background: rgb(0, 0, 0); 
+    background: rgba(0, 0, 0, 0.5); 
+    color: #f1f1f1;
+    width: 280px;
+    height: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 280px;
 }
 
 footer{
