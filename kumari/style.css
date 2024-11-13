@@ -27,9 +27,9 @@ body{
     text-decoration: none;
 }
 .logo{
-    height: 60px;
-    width:85px;
-    /*position: absolute;*/
+    height: 50px;
+    width:60px;
+    position: absolute;
     
 }
 .videos{
@@ -134,11 +134,9 @@ body{
     border-top: 1px solid white;
 }
 .cardd{
-   /* height: 400px;
-    width: 550px;*/
-    /*margin-top: 25%;*/
-    margin-top: 10px;
-    padding:10px;
+    height: 400px;
+    width: 550px;
+    margin-top: 25%;
     background-color: whitesmoke;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
@@ -194,7 +192,7 @@ body{
     transform: translate(-50%, -50%);
     white-space: nowrap;
   }
-.product_section{
+.ccontainer{
     height: 455px;
     width: 1262px;
     margin-top: 5%;
@@ -204,8 +202,8 @@ body{
 .newproducts{
     height: 380px;
     width: 280px;
-    /*margin-top: 13%;*/
-    /*margin-left: 55%;*/
+    margin-top: 13%;
+    margin-left: 55%;
 }
 .newproducts:hover{
     opacity: 0.5;
@@ -213,7 +211,6 @@ body{
 .content{
     font-family: 'sans-serif';
     font-size: 25px;
-    padding: 10px;
     
 }
 .info{
@@ -240,8 +237,8 @@ body{
 .allkitchen{
     height: 380px;
     width: 280px;
-    /*margin-top: 12%;*/
-   /* margin-left: 78%;*/
+    margin-top: 12%;
+    margin-left: 78%;
 }
 .allkitchen:hover{
     opacity: 0.5;
@@ -275,8 +272,8 @@ body{
 .gallery{
     height: 380px;
     width: 280px;
-    /*margin-top: 12%;*/
-    /*margin-left: 100%;*/
+    margin-top: 12%;
+    margin-left: 100%;
 }
 .gallery:hover{
     opacity: 0.5;
@@ -312,7 +309,7 @@ footer{
     background-color: black;
     height: 50%vh;
     margin-top: 30px;
-    text-align: center;
+
 }
 .para{
     color: rgb(149, 96, 96);
@@ -382,7 +379,6 @@ footer{
     .image{
         height: 300px;
         width: 100%;
-        margin-top: 15px;
     }
     .title{
         font-family: 'sans-serif';
@@ -407,12 +403,10 @@ footer{
         border-top: 1px solid white;
     }
     .vl {
-        display: none;
         border-right: 17px solid black;
 
       }
     .lv{
-        display: none;
         border-left: 17px solid black;
     }
     .vcontainer{
@@ -427,15 +421,15 @@ footer{
         width: 100%;
         height: 500px;
     }
-    /*.cardd{
+    .cardd{
         height: 400px;
         width: 410px;
-       margin-top: 20%;
+        margin-top: 20%;
         margin-left: 1%;
         margin-right: 1%;
         background-color: whitesmoke;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    }*/
+    }
     .vtitle{
         font-family: 'sans-serif';
         font-size: 28px;
@@ -463,10 +457,10 @@ footer{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
     }
     .newproducts{
-        /*height: 400px;
+        height: 400px;
         width: 310px;
         margin-top: 8%;
-        margin-left: 11%;*/
+        margin-left: 11%;
     }
     .info{
         color: #f1f1f1;
@@ -490,9 +484,9 @@ footer{
     .allkitchen{
         height: 400px;
         width: 310px;
-        /*margin-top: 50%;*/
-       /* margin-left: 40%;*/
-       /* margin-bottom: 20%;*/
+        margin-top: 50%;
+        margin-left: 40%;
+        margin-bottom: 20%;
     }
     .newcard .contentt{
         position: absolute;
@@ -509,8 +503,8 @@ footer{
     .gallery{
         height: 400px;
         width: 310px;
-      /*  margin-top: 20%;*/
-     /*   margin-left: 40%;*/
+        margin-top: 20%;
+        margin-left: 40%;
     }
     .newcardd .contenttt{
         position: absolute;
@@ -560,38 +554,4 @@ footer{
         flex-direction: column;
     }  
 
-}
-.pro_info a {
-    color: white;
-   
-}
-.pro_info  {
-    position:absolute;
-   text-align: center;
-    background: rgb(0, 0, 0);
-    background: rgba(0, 0, 0, 0.5);
-    color: #f1f1f1;
-       width: 320px;
-    padding: 20px;
-    
-   /* transform: translate(-100%, -50%);*/
-}
-
-img.product_img {
-    width: 320px;
-}
-
-nav.container-fluid.navbar.navbar-expand-lg.navbar-light.shadow-lg.fixed-top {
-    background-color: white;
-    height: 73px;
-}
-
-ul.navbar-nav.ml-5 {
-    margin-left: 3rem !important;
-    background-color: white;
-    width: auto;
-}
-
-a.navItem.ml-3 {
-    margin-left: 41px !important;
 }
