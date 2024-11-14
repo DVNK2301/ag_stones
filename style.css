@@ -454,9 +454,6 @@ footer{
         font-size: 22px;
         color: black;
     }
-    .btn{
-        margin-right: 25%;
-    }
     .dircard{
         display: flex;
         flex-direction: column;
