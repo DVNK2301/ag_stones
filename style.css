@@ -117,6 +117,7 @@ body{
   height: 40px;
   width: 138px;
   color:white;
+  margin-left: 30px;
 }
 .container{
     align-items: center;
@@ -417,7 +418,7 @@ footer{
     }
     .vcontainer{
         margin-top: 10%;
-        margin-left: 1%;
+        margin-left: 4%;
         margin-right: 10;
         position: relative;
         width: 98%;
@@ -436,6 +437,9 @@ footer{
         background-color: whitesmoke;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }*/
+    .cardd{
+        margin-left: 25px;
+    }
     .vtitle{
         font-family: 'sans-serif';
         font-size: 28px;
@@ -449,6 +453,9 @@ footer{
         padding-left: 6%;
         font-size: 22px;
         color: black;
+    }
+    .btn{
+        margin-right: 25%;
     }
     .dircard{
         display: flex;
