@@ -571,14 +571,18 @@ footer{
 }
 .pro_info  {
     position:absolute;
-   text-align: center;
+    text-align: center;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
-       width: 320px;
+    width: 320px;
     padding: 20px;
     
    /* transform: translate(-100%, -50%);*/
+}
+.pro_info a:hover{
+    text-decoration: none;
+    color: rgb(149, 96, 96);
 }
 
 img.product_img {
